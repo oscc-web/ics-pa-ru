@@ -1,21 +1,20 @@
-
 <!-- # PA4 - 虚实交错的魔法: 分时多任务 -->
 
-# PA4 - The magic of reality and fiction: Time-sharing multitasking
+# PA4 — Магия переплетения виртуального и реального: многозадачность с разделением времени
 
 <!-- > #### flag::世界诞生的故事 - 第四章
 > 先驱已经创造了一个足够强大的计算机, 甚至能支撑操作系统和真实应用程序的运行.
 > 但这还不够, 先驱决定向计算机施以虚拟化的魔法. -->
 
-> #### flag::The story of the birth of the world - Chapter 4
-> Pioneers have created a computer powerful enough to run even the web and real-world applications.
-> But that wasn't enough, the pioneers decided to implement the magic of virtualization on computers.
+> #### flag:: История рождения мира — глава четвёртая
+> Первопроходец уже создал достаточно мощный компьютер — настолько, что на нём могут работать операционная система и настоящие приложения.
+> Но и этого оказалось недостаточно: первопроходец решил наложить на компьютер магию виртуализации.
 
 <!-- > #### danger::代码管理
 > 在进行本PA前, 请在工程目录下执行以下命令进行分支整理, 否则将影响你的成绩: -->
 
-> #### danger::code management
-> Before proceeding with this PA, please execute the following command in the project directory to organize branches, otherwise your score will be affected:
+> #### danger:: Управление кодом
+> Перед началом этого PA выполните в каталоге проекта следующие команды для упорядочивания веток, иначе это скажется на вашей оценке:
 ```
 git commit --allow-empty -am "before starting pa4"
 git checkout master
@@ -32,10 +31,10 @@ git checkout -b pa4
 > * task PA4.2: 实现支持虚存管理的多道程序系统
 > * task PA4.3: 实现抢占式分时多任务系统, 并提交完整的实验报告 -->
 
-> #### danger::Submit requirements (please read the following carefully, if you violate it, you will be responsible for the consequences)
-> **<u>Estimated average time</u>**: 40 hours
+> #### danger:: Требования к сдаче (пожалуйста, внимательно прочитайте следующее; в случае нарушения ответственность лежит на вас)
+> **<u>Ориентировочное время выполнения</u>**: 40 часов
 >
-> **<u>Phase Arrangement</u>**:
-> * task PA4.1: Implement a basic multi-programming system and support time-sharing running of PAL with parameters and kernel thread Hello
-> * task PA4.2: Implement a multiprogramming system that supports virtual memory management
-> * task PA4.3: Implement a preemptive time-sharing multi-task system and submit a complete experimental report
+> **<u>Поэтапный план</u>**:
+> * task PA4.1: реализовать базовую систему мультипрограммирования, поддерживающую выполнение Chinese Paladin (с передачей параметров) и потока ядра Hello с разделением времени
+> * task PA4.2: реализовать систему мультипрограммирования с поддержкой управления виртуальной памятью
+> * task PA4.3: реализовать вытесняющую многозадачную систему с разделением времени и сдать полный отчёт по лабораторной работе
